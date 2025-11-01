@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://backiee.com/static/wallpapers/1000x563/199878.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+}
+
+.box{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDtNFKLvrD66EUVTbR0rpBkntekcNMoIHVWw&s);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: azure;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+}
+.input{
+    border-radius: 16px;
+    padding: 5px;
+    background-color: rgba(0, 0, 255, 0.384);
+    color: floralwhite;
+}
+.htr{
+    color: aliceblue;
+}
+.brt{
+    padding:5px 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.393);
+    color: aliceblue;
+}
+.brt:hover{
+    background-color: rgba(0, 255, 255, 0.864);
+    color: antiquewhite;
+}

@@ -1,0 +1,165 @@
+body {
+    font-family: 'roboto' sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+    letter-spacing: 0, 5px;
+    background-color:rgba(179, 202, 244, 0.644);
+
+
+}
+
+.site_logo_img {
+    height: 50px;
+    object-fit: cover;
+}
+
+
+.sitenav {
+    display: flex;
+    margin: 5px auto;
+    justify-items: center;
+}
+
+.uls {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0px 20px;
+    width: 100%;
+    background-color: rgb(229, 241, 252);
+}
+
+.logo {
+    padding: 0%;
+    margin: 0%;
+}
+
+.menu {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.hero {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+ width: 100%;
+  height: 400px;
+  background-image: url(https://prd-sc102-cdn.rtx.com/-/media/ca/edited-images/collins-new-images/munich-airport-gettyimages-479014493.jpg?rev=73cbb0db19ec490d9a17dadb55d66ef1);
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+
+}
+
+
+
+.hero- {
+    color: #fff;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+
+}
+
+.btn {
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: blue;
+}
+
+.herro-btn {
+    color: #fff;
+    background: #000;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.container {
+  perspective: 600px;
+}
+
+.btn {
+  background-color: rgba(0, 255, 255, 0.497);
+  color: #fff;
+  padding: 10px;
+  transition: all 0.5s ease;
+  border-radius: 6px;
+}
+.btn:hover {
+  transform: rotateY(50deg);
+}
+
+.newshad {
+    font-size: 32px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.shop-new{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.new{
+    
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+
+}
+.montaa{
+    background-color: antiquewhite;
+    box-shadow: 10px 8px 4px 0px gray;
+    width: 440px;
+    height: 500px;
+    border-radius: 6px;
+}
+
+.heading {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    text-align: center;
+    list-style: none;
+    border-radius: 6px;
+
+}
+
+.news-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.aside {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+ width: 100%;
+  height: 500px;
+  background-image: url(https://www.spot.uz/media/img/2022/08/r0y89Y16607485374326_l.jpg);
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
